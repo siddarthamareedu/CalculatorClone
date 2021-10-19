@@ -8,7 +8,7 @@ function clearScreen() {
 // Displays entered value on screen.
 function liveScreen(value) {
   let res = document.getElementById("result");
-  if(res.value == "undefined"){
+  if (res.value == "undefined") {
     res.value = "";
   }
   res.value += value;
